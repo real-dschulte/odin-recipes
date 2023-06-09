@@ -1,0 +1,36 @@
+body {
+    background-color: #E2D9C5;
+}
+
+h1 {
+    color: #6F7714;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Brush Script MT", "Lucida Handwriting", "Georgia", serif;
+}
+
+img {
+    object-position: center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #AB5235;
+    text-align: center;
+    font-size: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.website {
+    display: none;
+    text-decoration-line: underline;
+    color: #8B3422;
+}
