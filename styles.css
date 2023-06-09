@@ -30,7 +30,8 @@ img {
 }
 
 .website {
-    display: none;
+    display: inline;
     text-decoration-line: underline;
     color: #8B3422;
+    font-size: 16px;
 }
