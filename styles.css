@@ -1,3 +1,10 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #E2D9C5;
 }
@@ -9,24 +16,17 @@ h1 {
     font-family: "Brush Script MT", "Lucida Handwriting", "Georgia", serif;
 }
 
-img {
-    object-position: center;
+.recipe-info ul {
+    list-style: none;   
 }
 
-a {
-    display: block;
-    text-decoration: none;
-    color: #AB5235;
-    text-align: center;
-    font-size: 50px;
+.recipe-info ul li {
+    display: inline-block;
+    margin: 10px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: auto;
+.recipe-info ul li h2 {
+    font-size: 18px;
 }
 
 .website {
@@ -34,4 +34,33 @@ img {
     text-decoration-line: underline;
     color: #8B3422;
     font-size: 16px;
+}
+
+.recipe-card {
+    border: 5px solid #8B3422;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+.recipe-image {
+    display: inline-block;
+    border: 5px solid #AB5235;
+    width: 30%;
+    height: 235px;
+}
+
+.recipe-content {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.recipe-link {
+    text-decoration: none;
+    color: #AB5235;
+    font-size: 50px;
+    vertical-align: top;
+    margin: 0px auto;
+    font-size: 40px;
 }
